@@ -1,0 +1,187 @@
+@extends('news.news-layout')
+@section('news-body')
+<article class="post-14 page type-page status-publish has-post-thumbnail hentry" itemscope="" itemtype="http://schema.org/Article">
+
+    <main role="main" class="main">
+        <section class="page-title-block">
+
+            <picture>
+                 <source media="(max-width: 575px)" srcset={{asset('asset/wp-content/uploads/2019/07/gear-400x720.jpg')}}>
+                 <img alt="News" class="cover" src={{asset('asset/wp-content/uploads/2019/07/gear-1920x800.jpg')}} height="auto" width="auto">
+             </picture>
+            
+            <div class="title-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="page-title">News</h1>
+                            <div class="lead">Latest Updates from TJ Aerospace</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="page-body-block bg-quaternary">
+            <div class="container pb-md-6 pb-4">
+                <div class="row">
+                <article itemscope="" itemtype="http://schema.org/ItemPage" class="col-md-6 mb-4 mb-md-5 col-news-featured">
+<div class="card card-news card-news-featured">
+    <div class="card-header">
+        <a title="TJ Aerospace Updates Its Website" href="https://tjaerospace.com/news/tj-aerospace-updates-its-website/">
+            <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/07/tja-home-page-600x400.jpg')}} class="card-img-top wp-post-image" alt="">            </a>
+    </div>
+    <div class="card-body">
+        <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-15" itemprop="datePublished">July 15, 2019</time></div>
+        <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-updates-its-website/">TJ Aerospace Updates Its Website</a></h4>
+    </div>
+    <div class="card-footer">
+        <a title="TJ Aerospace Updates Its Website" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-updates-its-website/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="col-md-6 mb-4 mb-md-5 col-news-featured">
+<div class="card card-news card-news-featured">
+    <div class="card-header">
+        <a title="TJ Aerospace Begins Installation of Their Two New Swiss Turn Machines and Bar Feeders" href="https://tjaerospace.com/news/tj-aerospace-begins-installation-of-their-two-new-swiss-turn-machines-and-bar-feeders/">
+            <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/06/Citizen-Cincom-L20-600x400.png')}} class="card-img-top wp-post-image" alt="">            </a>
+    </div>
+    <div class="card-body">
+        <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-10" itemprop="datePublished">July 10, 2019</time></div>
+        <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-begins-installation-of-their-two-new-swiss-turn-machines-and-bar-feeders/">TJ Aerospace Begins Installation of Their Two New Swiss Turn Machines and Bar Feeders</a></h4>
+    </div>
+    <div class="card-footer">
+        <a title="TJ Aerospace Begins Installation of Their Two New Swiss Turn Machines and Bar Feeders" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-begins-installation-of-their-two-new-swiss-turn-machines-and-bar-feeders/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="TJ Aerospace Continues Working On Its CNC Manufacturing Facility In Vietnam" href="https://tjaerospace.com/news/tj-aerospace-continues-working-on-its-cnc-manufacturing-facility-in-vietnam/">
+        <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/07/tja-vn-building-1200x583.jpg')}} class="card-img-left flex-auto wp-post-image" alt="">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-08" itemprop="datePublished">July 8, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-continues-working-on-its-cnc-manufacturing-facility-in-vietnam/">TJ Aerospace Continues Working On Its CNC Manufacturing Facility In Vietnam</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="TJ Aerospace Continues Working On Its CNC Manufacturing Facility In Vietnam" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-continues-working-on-its-cnc-manufacturing-facility-in-vietnam/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="Happy Independence Day from the TJ Aerospace Team" href="https://tjaerospace.com/news/happy-independence-day-from-the-tj-aerospace-team/">
+        <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/07/fireworks-600x400.jpg')}} class="card-img-left flex-auto wp-post-image" alt="">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-04" itemprop="datePublished">July 4, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/happy-independence-day-from-the-tj-aerospace-team/">Happy Independence Day from the TJ Aerospace Team</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="Happy Independence Day from the TJ Aerospace Team" class="read-more" href="https://tjaerospace.com/news/happy-independence-day-from-the-tj-aerospace-team/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="Smart Manufacturing" href="https://tjaerospace.com/news/smart-manufacturing/">
+        <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/07/android-600x400.jpg')}} class="card-img-left flex-auto wp-post-image" alt="">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-07-01" itemprop="datePublished">July 1, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/smart-manufacturing/">Smart Manufacturing</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="Smart Manufacturing" class="read-more" href="https://tjaerospace.com/news/smart-manufacturing/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="Lights-Out Manufacturing" href="https://tjaerospace.com/news/lights-out-manufacturing/">
+        <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/07/night-sky-600x400.jpg')}} class="card-img-left flex-auto wp-post-image" alt="" srcset={{asset('asset/wp-content/uploads/2019/07/night-sky-600x400.jpg')}} 600w, {{asset('asset/wp-content/uploads/2019/07/night-sky-768x512.jpg')}} 768w, {{asset('asset/wp-content/uploads/2019/07/night-sky-1200x800.jpg')}} 1200w" sizes="(max-width: 600px) 100vw, 600px">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-06-30" itemprop="datePublished">June 30, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/lights-out-manufacturing/">Lights-Out Manufacturing</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="Lights-Out Manufacturing" class="read-more" href="https://tjaerospace.com/news/lights-out-manufacturing/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="Welcome Summer 2019" href="https://tjaerospace.com/news/welcome-summer-2019/">
+        <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/07/summer-600x400.jpg')}} class="card-img-left flex-auto wp-post-image" alt="">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-06-21" itemprop="datePublished">June 21, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/welcome-summer-2019/">Welcome Summer 2019</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="Welcome Summer 2019" class="read-more" href="https://tjaerospace.com/news/welcome-summer-2019/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="Shop Floor’s Overall Equipment Effectiveness and Manufacturing Efficiency" href="https://tjaerospace.com/news/shop-floors-overall-equipment-effectiveness-and-manufacturing-efficiency/">
+        <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/06/tj-aerospace-other-components-600x400.jpg')}} class="card-img-left flex-auto wp-post-image" alt="Tj Aerospace - High-speed drill" srcset={{asset('asset/wp-content/uploads/2019/06/tj-aerospace-other-components-600x400.jpg')}} 600w, {{asset('asset/wp-content/uploads/2019/06/tj-aerospace-other-components-768x512.jpg')}} 768w, {{asset('asset/wp-content/uploads/2019/06/tj-aerospace-other-components-1200x800.jpg')}} 1200w" sizes="(max-width: 600px) 100vw, 600px">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-06-03" itemprop="datePublished">June 3, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/shop-floors-overall-equipment-effectiveness-and-manufacturing-efficiency/">Shop Floor’s Overall Equipment Effectiveness and Manufacturing Efficiency</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="Shop Floor’s Overall Equipment Effectiveness and Manufacturing Efficiency" class="read-more" href="https://tjaerospace.com/news/shop-floors-overall-equipment-effectiveness-and-manufacturing-efficiency/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="TJ Aerospace Purchases Two New Swiss Turn Machines with Bar Feeders" href="https://tjaerospace.com/news/tj-aerospace-purchases-two-new-swiss-turn-machines-with-bar-feeders/">
+        <img width="600" height="230" src={{asset('asset/wp-content/uploads/2019/06/bar-loaders-2-600x230.jpg')}} class="card-img-left flex-auto wp-post-image" alt="">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-05-06" itemprop="datePublished">May 6, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-purchases-two-new-swiss-turn-machines-with-bar-feeders/">TJ Aerospace Purchases Two New Swiss Turn Machines with Bar Feeders</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="TJ Aerospace Purchases Two New Swiss Turn Machines with Bar Feeders" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-purchases-two-new-swiss-turn-machines-with-bar-feeders/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<article itemscope="" itemtype="http://schema.org/ItemPage" class="mb-4 col-12">
+<div class="card card-news flex-md-row">
+    <a title="TJ Aerospace Plans CNC Manufacturing Facility Overseas" href="https://tjaerospace.com/news/tj-aerospace-plans-cnc-manufacturing-facility-overseas/">
+        <img width="600" height="400" src={{asset('asset/wp-content/uploads/2019/07/vietnam-600x400.jpg')}} class="card-img-left flex-auto wp-post-image" alt="" srcset={{asset('asset/wp-content/uploads/2019/07/vietnam-600x400.jpg')}} 600w, {{asset('asset/wp-content/uploads/2019/07/vietnam-768x512.jpg')}} 768w, {{asset('asset/wp-content/uploads/2019/07/vietnam-1200x800.jpg')}} 1200w" sizes="(max-width: 600px) 100vw, 600px">        </a>
+    <div class="card-body d-flex flex-column align-items-start">
+        <div class="card-text">
+            <div class="date"><i class="fa fa-clock-o"></i> <time datetime="2019-05-01" itemprop="datePublished">May 1, 2019</time></div>
+            <h4 class="h5 font-weight-bold"><a href="https://tjaerospace.com/news/tj-aerospace-plans-cnc-manufacturing-facility-overseas/">TJ Aerospace Plans CNC Manufacturing Facility Overseas</a></h4>
+        </div>
+        <div class="card-footer mt-auto">
+            <a title="TJ Aerospace Plans CNC Manufacturing Facility Overseas" class="read-more" href="https://tjaerospace.com/news/tj-aerospace-plans-cnc-manufacturing-facility-overseas/"><span>Read More</span> <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</article>
+<nav class="nav flex-row pagination"><span aria-current="page" class="page-numbers current"><span class="sr-only">Page:  </span>1</span>
+<a class="page-numbers" href="https://tjaerospace.com/news/page/2/"><span class="sr-only">Page:  </span>2</a>
+<a class="next page-numbers" href="https://tjaerospace.com/news/page/2/"><span class="text-uppercase">Next</span><i class="fa fa-angle-right"></i></a></nav>                    </div>
+            </div>
+        </section>
+    </main>
+
+</article>
+@endsection
